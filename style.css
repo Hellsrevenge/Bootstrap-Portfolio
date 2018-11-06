@@ -1,0 +1,128 @@
+body {
+  padding:0 0 60px;
+  margin:0;
+  font-size: 15px;
+  line-height: 32px;
+  color: #777777;
+  background:url(assets/qbkls.png);
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+} 
+h1 {
+  font-size: 24px;
+  line-height: 45px;
+  margin-top: 11px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: green;
+  color: white;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+h2 {
+  color:#4aaaa5;
+  font-size: 24px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size:21px;
+  color:#4aaaa5;
+}
+footer {
+  background: #666666;
+  border-top: 4px #4aaaa5 solid;
+  text-align: center;
+  padding:5px 0;
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  color:rgb(12, 11, 11);
+}
+.grinch {
+  background: #4aaaa5;
+  position:absolute;
+  bottom:5px;
+  width: 280px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.grinch a {
+  color:white;
+  text-decoration: none;
+}
+.navbar-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.navbar-header {
+  margin:0;  
+  padding: 10px;
+  text-align: center;
+  background: #4aaaa5;
+  width: 210px;
+  color: #ffffff;
+  height: 60px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.bg-barscha {
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+.navbar-barscha {
+  margin: 0 0 40px;
+  padding: 0;
+}
+.navbar-barscha .navbar-nav {
+  margin-top: 14px;
+}
+.navbar-barscha .navbar-nav .nav-link {
+  color: rgba(0,0,0,.5);
+}
+.navbar-barscha .navbar-nav .nav-item {
+  padding: 0 10px;
+  border-left: 1px solid #cccccc;
+  line-height: 15px;
+}
+.navbar-barscha .navbar-nav .nav-item:first-child {
+  border: 0;
+}
+.navbar-barscha .navbar-toggler-icon {
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+.container-barscha {
+  padding: 20px;
+  margin: 0 auto 60px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+}
+.myimage {
+  width: 200px;
+}
+.pic img{
+  width: 280px;
+  height: 200px;
+}
+.thumbnail {
+  margin: 0 40px 60px 0;
+  position: relative;
+  width: 280px;
+}
+.img-responsive {
+  width: 100%;
+}
+.card-barscha {
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    max-width: 100%;
+  }
+}
